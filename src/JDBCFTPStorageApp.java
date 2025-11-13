@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class JDBCFTPStorageApp extends JFrame {
 
-    private static final String DB_URL = "jdbc:postgresql://DB_URL";
+    private static final String DB_URL = "jdbc:postgresql://CHANGE_ME";
     private static final String DB_USER = "CHANGE_ME";
     private static final String DB_PASS = "CHANGE_ME";
     private static final String FTP_HOST = "localhost";
