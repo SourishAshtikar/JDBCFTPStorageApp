@@ -7,13 +7,13 @@ import java.util.Arrays;
 
 public class JDBCFTPStorageApp extends JFrame {
 
-    private static final String DB_URL = "jdbc:postgresql://community-sequence.gl.at.ply.gg:59153/ftp";
-    private static final String DB_USER = "casaos";
-    private static final String DB_PASS = "casaos";
+    private static final String DB_URL = "jdbc:postgresql://DB_URL";
+    private static final String DB_USER = "CHANGE_ME";
+    private static final String DB_PASS = "CHANGE_ME";
     private static final String FTP_HOST = "localhost";
     private static final int FTP_PORT = 21;
-    private static final String FTP_USER = "root";
-    private static final String FTP_PASS = "root";
+    private static final String FTP_USER = "CHANGE_ME";
+    private static final String FTP_PASS = "CHANGE_ME";
     private JTextField usernameField;
     private JPasswordField passwordField;
     private JButton registerButton, loginButton;
